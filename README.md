@@ -375,7 +375,7 @@ page.find_all('p')
 
 
 ```python
-#  url을 포함하는 태그 ???의 내용을 확인한다.
+#  url을 포함하는 태그 a의 내용을 확인한다.
 page.a  # same as page.body.a
 ```
 
@@ -1044,7 +1044,7 @@ page.find_all('div')
 # 텍스트 처리
 
 **get_text()** 
-- 문서 또는 태그 내의 모든 텍스트를 하나의 유니코드 문자열(single Unicode string)로 반환
+- 문서 또는 태그 내의 모든 텍스트를 하나의 유니코드 문자열(single Unicode string)로 반환한다.
 
 **get_text(strip=True)** 
 - 각 텍스트의 시작과 끝에서 화이트스페이스를 제거한다.
